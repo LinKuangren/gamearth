@@ -1,0 +1,135 @@
+header {
+  background-color: var(--gamearth-blue);
+  text-align: left;
+
+  img.wp-post-image {
+    width: 100%;
+  }
+
+  ul.post-categories {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    font-weight: bold;
+    gap: 25px;
+    justify-content: flex-start;
+    margin-top: 25px;
+    padding-left: 150px;
+
+    li > a {
+      color: white;
+      font-size: 18px;
+      text-decoration: none;
+    }
+  }
+
+  .news-date {
+    color: white;
+    font-size: 14px;
+    padding-left: 150px;
+  }
+
+  h2.news-title {
+    color: var(--gamearth-green);
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 15px;
+    max-width: 500px;
+    padding-left: 150px;
+  }
+
+  .news-read-article {
+    padding: 50px 0;
+    text-align: center;
+
+    p {
+      color: white;
+    }
+
+    img {
+      margin-top: 15px;
+    }
+  }
+}
+
+div.news-content {
+  color: var(--gamearth-blue);
+  margin: 0 5%;
+  padding-top: 100px;
+
+  h3 {
+    font-family: Poppins;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 50px;
+  }
+
+  p {
+    margin-bottom: 50px;
+  }
+
+  figure.wp-block-image {
+    text-align: center;
+  }
+
+  blockquote {
+    border-left: 12px solid var(--gamearth-green);
+    margin: 0 0 50px 100px;
+    padding-left: 30px;
+
+    p, cite {
+      font-size: 45px;
+      font-style: italic;
+      font-weight: bold;
+    }
+
+    p {
+      color: var(--gamearth-green);
+      margin-bottom: 0;
+    }
+
+    cite {
+      color: var(--gamearth-blue);
+      font-size: 24px;
+    }
+  }
+
+  figure.wp-block-gallery {
+    display: flex !important;
+    flex-flow: row nowrap !important;
+    height: 100% !important;
+    width: 100% !important;
+
+    figure {
+      height: 250px !important;
+      width: 250px !important;
+
+      img {
+        height: 250px !important;
+        width: 250px !important;
+      }
+    }
+  }
+
+  div.yarpp.yarpp-related.yarpp-related-website.yarpp-template-thumbnails {
+    h3 {
+      color: var(--gamearth-green);
+      font-weight: bold;
+      margin: 0;
+    }
+    div.yarpp-thumbnails-horizontal {
+      display: flex;
+      gap: 25px;
+
+      a.yarpp-thumbnail {
+        border: none !important;
+        height: auto;
+        width: auto;
+
+        span.yarpp-thumbnail-title {
+          max-height: unset;
+        }
+      }
+    }
+  }
+}

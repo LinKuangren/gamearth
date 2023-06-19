@@ -1,0 +1,49 @@
+section#home-action,
+section#home-impact,
+section#home-media,
+section#home-ecosystem {
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-columns: 30% 70%;
+  grid-template-rows: 1fr;
+  height: 100%;
+  place-content: center;
+  width: 100%;
+}
+
+div.block-section-header {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  margin: 0;
+  place-items: center;
+  place-self: center;
+  text-align: center;
+  width: 100%;
+
+  p.block-section-header-title {
+    font-size: 72px;
+    font-weight: 300;
+    line-height: 70px;
+    margin: 20px 100px;
+
+    span.title-lastword {
+      color: var(--gamearth-blue);
+      font-weight: bold;
+      text-transform: capitalize;
+    }
+  }
+
+  button {
+    margin: 20px;
+  }
+}
+
+div.block-section-content {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr) 2fr;
+}
+
+section#home-impact {
+  display: none;
+}

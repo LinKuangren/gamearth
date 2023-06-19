@@ -1,0 +1,17 @@
+{
+  "extends": "stylelint-config-standard-scss",
+  "rules": {
+    "alpha-value-notation": "number",
+    "at-rule-no-unknown": null,
+    "color-function-notation": "legacy",
+    "max-nesting-depth": 3,
+    "no-empty-source": null,
+    "number-leading-zero": null,
+    "string-quotes": "single",
+    "scss/double-slash-comment-empty-line-before": null,
+    "order/properties-alphabetical-order": true
+  },
+  "plugins": [
+    "stylelint-order"
+  ]
+}

@@ -1,0 +1,872 @@
+section#ecosystem-soutien {
+  background-color: #cbcbcb;
+}
+
+section#ecosystem-equipe,
+section#ecosystem-expert,
+section#ecosystem-engage {
+  display: grid;
+  grid-template-columns: 32.4% 67.6%;
+}
+
+div.block-content-partenaire {
+  display: grid;
+  grid-gap: 50px 25px;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+
+  img {
+    height: 50%;
+    width: 50%;
+  }
+}
+
+/*
+section#ecosystem-ecosystem {
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-columns: 30% 70%;
+  grid-template-rows: 1fr;
+  height: 100%;
+  place-content: center;
+  width: 100%;
+}
+*/
+
+div.section-partenaire-header {
+  background-color: var(--gamearth-blue);
+
+  p {
+    color: var(--gamearth-green);
+    font-size: 72px;
+    font-weight: bold;
+    line-height: 70px;
+    margin: 1rem 20px 20px 20px;
+    text-align: center;
+  }
+}
+
+div.section-partenaire-contenu {
+  background-color: var(--gamearth-blue);
+  padding: 2rem 5rem;
+
+  div.section-partenaire-image {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 22rem 6rem 8rem;
+  }
+
+  div.content-image-partenaire {
+    align-self: center;
+    margin: -2rem;
+    text-align: center;
+
+    img {
+      height: 50%;
+      width: 56%;
+    }
+  }
+}
+
+/*
+div.section-header {
+  display: flex;
+  flex-direction: column;
+  height: 42rem;
+  margin: 0;
+  place-items: center;
+  place-self: center;
+  text-align: center;
+  width: 100%;
+
+  p.block-section-header-title {
+    font-size: 72px;
+    font-weight: 300;
+    line-height: 70px;
+    margin: 20px 100px;
+  }
+
+  div.img-water {
+    position: absolute;
+
+    img {
+      clip-path: polygon(0 0, 100% 0, 100% 59%, 0 59%);
+      display: block;
+      height: 300%;
+      left: 0;
+      position: relative;
+      transform: scaleX(-1);
+      width: 333%;
+      z-index: 1;
+    }
+  }
+
+  div.logo-ecosystem {
+    display: flex;
+    padding: 10rem 0 0;
+
+    img {
+      height: 65%;
+      width: 100%;
+      z-index: 2;
+    }
+  }
+
+  button {
+    margin: 20px;
+  }
+}
+*/
+/*
+div.block-content-start {
+  div.ecosystem-paragraph {
+    padding: 14rem 8rem 0 41rem;
+    position: absolute;
+    text-align: end;
+    z-index: 2;
+  }
+
+  p.ecosystem-paragraph-text {
+    margin: 0 0 1.25rem;
+    z-index: 2;
+  }
+}
+*/
+
+h3.block-section-header-title {
+  font-size: 7px;
+  font-weight: 300;
+  line-height: 70px;
+  margin: 20px 7rem;
+
+  span.title-lastword {
+    color: var(--gamearth-blue);
+    font-weight: bold;
+    text-transform: capitalize;
+  }
+}
+
+div.section-soutien-header {
+  margin: 4rem 0 0;
+
+  p {
+    color: var(--gamearth-blue);
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 35px;
+    margin: 0 23rem 2rem;
+    text-align: center;
+  }
+}
+
+div.section-equipe-header {
+  background-color: var(--gamearth-blue);
+
+  p {
+    color: var(--gamearth-green);
+    font-size: 72px;
+    font-weight: bold;
+    line-height: 70px;
+    margin: 5rem 100px 20px;
+    text-align: center;
+  }
+
+  div.section-equipe-image {
+    img {
+      display: flex;
+      height: 100%;
+      transform: scaleX(-1);
+      width: 100%;
+    }
+  }
+}
+
+div.section-expert-header {
+  background-color: var(--gamearth-blue);
+  padding: 0 0 12rem;
+
+  h3 {
+    color: var(--gamearth-green);
+    font-size: 72px;
+    font-weight: bold;
+    line-height: 60px;
+    padding: 32px;
+    text-align: center;
+  }
+
+  p {
+    color: var(--gamearth-green);
+    margin: 2rem 0 0;
+    padding: 0 4rem 32px;
+    text-align: center;
+  }
+}
+
+div.section-expert-extcontenu {
+  background-color: white;
+  padding: 0 0 26rem;
+}
+
+div.section-expert-intcontenu {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 0 1rem;
+  position: absolute;
+
+  div.section-expert-logo {
+    background-color: var(--gamearth-green);
+    height: 420px;
+    margin: 0 0.5rem;
+    text-align: center;
+
+    img {
+      height: 125px;
+      padding: 5rem 0 0;
+      width: 125px;
+    }
+
+    h3 {
+      color: var(--gamearth-blue);
+      font-size: 25px;
+      font-weight: bold;
+      text-align: center;
+    }
+
+    p {
+      color: var(--gamearth-blue);
+      padding: 0 2rem;
+    }
+
+    div.content-others {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      margin-top: 25px;
+
+      div.separator-expert-group-4 {
+        border: 2px solid var(--gamearth-blue);
+        margin: auto;
+        text-align: center;
+        width: 25%;
+      }
+    }
+  }
+}
+
+div.section-expert-contenu-blue {
+  background-color: var(--gamearth-blue);
+  padding: 0;
+}
+
+div.section-soutien-contenu {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 0 6rem;
+
+  div.section-soutien-photo {
+    padding: 0 0 2rem;
+    text-align: center;
+
+    img {
+      border-radius: 50%;
+      height: 162px;
+      width: 162px;
+    }
+
+    h3 {
+      color: var(--gamearth-blue);
+      font-size: 25px;
+      font-weight: bold;
+      line-height: 45px;
+    }
+
+    p {
+      color: var(--gamearth-blue);
+    }
+  }
+}
+
+div.section-equipe-contenu {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 4rem 6rem 5rem;
+
+  div.section-equipe-photo {
+    padding: 0 0 2rem;
+    text-align: center;
+
+    img {
+      border-radius: 50%;
+      height: 162px;
+      width: 162px;
+    }
+
+    h3 {
+      color: var(--gamearth-blue);
+      font-size: 25px;
+      font-weight: bold;
+      line-height: 45px;
+    }
+
+    p {
+      color: var(--gamearth-blue);
+    }
+  }
+}
+
+div.section-engage-all {
+  background-color: var(--gamearth-green);
+
+  div.section-engage-header {
+    margin: 4rem 0 0;
+
+    p {
+      color: var(--gamearth-blue);
+      font-size: 40px;
+      font-weight: bold;
+      line-height: 35px;
+      margin: 0 5rem;
+      text-align: center;
+    }
+  }
+
+  div.section-engage-contenu {
+    margin: 50px;
+    padding: 16px;
+
+    div.section-engage-align {
+      align-items: center;
+      display: flex;
+      margin: 0 0 3rem;
+
+      img {
+        height: 50%;
+        margin: 0 3rem 0 0;
+        width: 25%;
+      }
+
+      p {
+        text-align: justify;
+        width: 70%;
+      }
+    }
+  }
+}
+
+div.section-confiance {
+  display: flex;
+
+  div.section-header-confiance {
+    background-color: var(--gamearth-green);
+    height: 29rem;
+    padding: 10rem 0 0;
+    text-align: center;
+    width: 53%;
+
+    p.section-confiance-title {
+      color: var(--gamearth-blue);
+      font-size: 72px;
+      font-weight: bold;
+      line-height: 70px;
+      margin: 20px 100px;
+    }
+  }
+
+  div.section-confiance-contenu {
+    background-color: var(--gamearth-blue);
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(3, 15fr) 0fr;
+    padding: 0 8rem;
+    width: 100%;
+
+    div.section-confiance-contenu-next {
+      margin: 0 1rem;
+      text-align: center;
+
+      img {
+        height: 60%;
+        width: 100%;
+      }
+
+      h3 {
+        font-size: 1rem;
+        font-weight: bold;
+        padding: 1rem 0 0;
+      }
+
+      p {
+        text-align: center;
+      }
+    }
+  }
+}
+
+div.grid-line-ecosystem {
+  border-left: 8px solid var(--gamearth-green);
+  height: 50%;
+  margin: 0 0 0 16rem;
+  width: 2px;
+}
+
+div.grid-line-ecosystem-expert {
+  border-left: 8px solid var(--gamearth-green);
+  height: 50%;
+  margin: 0 0 0 16rem;
+  width: 2px;
+}
+
+div.grid-line-ecosystem-equipe {
+  border-left: 8px solid var(--gamearth-green);
+  height: 61%;
+  margin: 0 0 0 16rem;
+  position: absolute;
+  width: 2px;
+  z-index: 1;
+}
+
+div.grid-line-partenaire-logo {
+  border-left: 8px solid var(--gamearth-green);
+  height: 37%;
+  margin: 6rem 0 0 26rem;
+  position: absolute;
+  width: 2px;
+}
+
+div.grid-line-partenaire-logo {
+  display: none;
+}
+
+@media only screen and (max-width: 450px) {
+  section#ecosystem-ecosystem {
+    display: grid;
+    grid-auto-flow: column;
+  }
+
+  section#ecosystem-engage,
+  section#ecosystem-equipe,
+  section#ecosystem-expert,
+  section#ecosystem-partenaire {
+    display: block;
+    grid-auto-flow: column;
+  }
+
+  div.section-header {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    margin: 0;
+    place-items: center;
+    place-self: center;
+    text-align: center;
+    width: 100%;
+
+    p.block-section-header-title {
+      font-size: 72px;
+      font-weight: 300;
+      line-height: 70px;
+      margin: 20px 100px;
+    }
+
+    div.img-water {
+      position: relative;
+
+      img {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+        display: block;
+        filter: opacity(60%);
+        height: auto;
+        left: 0;
+        position: relative;
+        transform: scaleX(-1);
+        z-index: 1;
+      }
+    }
+
+    div.logo-ecosystem {
+      display: block;
+      left: 2%;
+      padding: 0;
+      position: absolute;
+      top: 25%;
+      z-index: 1;
+
+      img {
+        height: 60%;
+        width: 21%;
+      }
+    }
+
+    button {
+      margin: 20px;
+    }
+  }
+
+  div.section-partenaire-contenu {
+    background-color: var(--gamearth-blue);
+    padding: 2rem 3rem;
+
+    div.section-partenaire-image {
+      display: block;
+      padding: 0 2rem;
+    }
+
+    div.content-image-partenaire {
+      align-self: center;
+      margin: 2rem 0;
+      text-align: center;
+
+      img {
+        height: 50%;
+        width: 70%;
+      }
+    }
+  }
+
+  div.section-partenaire-header {
+    background-color: var(--gamearth-blue);
+
+    p {
+      color: var(--gamearth-green);
+      font-size: 9vh;
+      font-weight: bold;
+      line-height: 70px;
+      margin: 0;
+      padding: 2rem 0;
+      text-align: center;
+    }
+  }
+
+  div.section-soutien-header {
+    margin: 0;
+    padding: 2rem 0;
+
+    p {
+      color: var(--gamearth-blue);
+      font-size: 6vh;
+      font-weight: bold;
+      line-height: 35px;
+      margin: 0;
+      text-align: center;
+    }
+  }
+
+  div.section-equipe-header {
+    background-color: var(--gamearth-blue);
+
+    p {
+      color: var(--gamearth-green);
+      font-size: 13vh;
+      font-weight: bold;
+      line-height: 70px;
+      margin: 0;
+      padding: 2rem 0 1rem;
+      text-align: center;
+    }
+
+    div.section-equipe-image {
+      img {
+        display: flex;
+        height: 100%;
+        padding: 0;
+        transform: scaleX(-1);
+        width: 100%;
+      }
+    }
+  }
+
+  div.section-expert-header {
+    background-color: var(--gamearth-blue);
+    padding: 0 0 3rem;
+
+    h3 {
+      color: var(--gamearth-green);
+      font-size: 9vh;
+      font-weight: bold;
+      line-height: 60px;
+      text-align: center;
+    }
+
+    p {
+      color: var(--gamearth-green);
+      margin: 2rem 0 0;
+      padding: 0 4rem;
+      text-align: center;
+    }
+  }
+
+  div.section-equipe-contenu {
+    display: block;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 3rem 4rem;
+
+    div.section-equipe-photo {
+      padding: 0 0 2rem;
+      text-align: center;
+
+      img {
+        border-radius: 10rem;
+        height: 70%;
+        width: 100%;
+      }
+
+      h3 {
+        color: var(--gamearth-blue);
+        font-size: 25px;
+        font-weight: bold;
+        line-height: 45px;
+      }
+
+      p {
+        color: var(--gamearth-blue);
+      }
+    }
+  }
+
+  div.section-expert-extcontenu {
+    background-color: var(--gamearth-green);
+    padding: 0;
+  }
+
+  div.section-expert-intcontenu {
+    display: block;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 0 4rem;
+    position: initial;
+
+    div.section-expert-logo {
+      background-color: var(--gamearth-green);
+      margin: 0;
+      padding: 0 0 2rem;
+      text-align: center;
+
+      img {
+        height: 40%;
+        padding: 2rem 0 1rem;
+        width: 60%;
+      }
+
+      h3 {
+        color: var(--gamearth-blue);
+        font-size: 4vh;
+        font-weight: bold;
+        text-align: center;
+      }
+
+      p {
+        color: var(--gamearth-blue);
+        padding: 1rem 1rem 0;
+      }
+    }
+  }
+
+  div.section-expert-contenu-blue {
+    display: none;
+  }
+
+  div.grid-line-ecosystem-equipe {
+    display: none;
+  }
+
+  div.section-soutien-contenu {
+    display: block;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 0 4rem;
+
+    div.section-soutien-photo {
+      padding: 0 0 2rem;
+      text-align: center;
+
+      img {
+        border-radius: 12rem;
+        height: 59%;
+        width: 90%;
+      }
+
+      h3 {
+        color: var(--gamearth-blue);
+        font-size: 4vh;
+        font-weight: bold;
+        line-height: 5vh;
+        padding: 0 0 1rem;
+      }
+
+      p {
+        color: var(--gamearth-blue);
+      }
+    }
+  }
+
+  div.section-engage-all {
+    background-color: var(--gamearth-green);
+
+    div.section-engage-header {
+      margin: 0;
+      padding: 3rem 0;
+
+      p {
+        color: var(--gamearth-blue);
+        font-size: 6vh;
+        font-weight: bold;
+        line-height: 35px;
+        margin: 0 5rem;
+        text-align: center;
+      }
+    }
+
+    div.section-engage-contenu {
+      margin: 0 2rem;
+      padding: 2rem 0;
+
+      div.section-engage-align {
+        align-items: center;
+        display: block;
+        margin: 0 0 3rem;
+        text-align: center;
+
+        img {
+          height: 50%;
+          margin: 0;
+          width: 25%;
+        }
+
+        p {
+          text-align: center;
+        }
+      }
+    }
+  }
+
+  div.block-content-start {
+    padding: 0 4rem;
+    position: absolute;
+    top: 39%;
+    z-index: 1;
+
+    div.ecosystem-paragraph {
+      padding: 0;
+      position: relative;
+      text-align: center;
+    }
+
+    p.ecosystem-paragraph-text {
+      font-size: 3vw;
+      margin: 0 0 1.25rem;
+    }
+  }
+
+  div.section-confiance {
+    display: block;
+
+    div.section-header-confiance {
+      background-color: var(--gamearth-green);
+      height: auto;
+      padding: 2rem 0;
+      text-align: center;
+      width: auto;
+
+      p.section-confiance-title {
+        color: var(--gamearth-blue);
+        font-size: 10vh;
+        font-weight: bold;
+        line-height: 70px;
+        margin: 1rem 0;
+      }
+    }
+
+    div.section-confiance-contenu {
+      background-color: var(--gamearth-blue);
+      color: white;
+      display: block;
+      grid-template-columns: repeat(0, 15fr) 0fr;
+      padding: 0;
+      width: 100%;
+
+      div.section-confiance-contenu-next {
+        margin: 0 1rem;
+        padding: 3rem 0;
+        text-align: center;
+
+        img {
+          height: 60%;
+          width: 100%;
+        }
+
+        h3 {
+          font-size: 1rem;
+          font-weight: bold;
+          padding: 1rem 0 0;
+        }
+
+        p {
+          text-align: justify;
+        }
+      }
+    }
+  }
+
+  div.grid-line-partenaire-logo {
+    display: none;
+  }
+}
+
+section.ecosystem-hero {
+  max-height: 600px;
+  width: 100%;
+}
+
+div.ecosystem-hero-banner {
+  position: relative;
+
+  img.ecosystem-banner-image {
+    height: 600px;
+    transform: scaleX(-1);
+    width: -moz-available;
+    width: -webkit-fill-available;
+  }
+
+  div.logo-ecosystem {
+    padding: 50px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 33%;
+
+    img.ecosystem-logo-start {
+      height: 400px;
+      width: 400px;
+    }
+  }
+
+  .block-content-start {
+    padding: 50px;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 33%;
+
+    .ecosystem-paragraph {
+      align-items: center;
+      color: var(--gamearth-blue);
+      display: flex;
+      flex-direction: column;
+      font-weight: bold;
+      gap: 15px;
+    }
+  }
+}
+
+section#ecosystem-engage,
+section#ecosystem-equipe,
+section#ecosystem-expert,
+section#ecosystem-partenaire {
+  display: grid;
+  grid-gap: 0px;
+  grid-template-columns: 37.6% 62.4%;
+  grid-template-rows: 1fr;
+}
+
+div.grid-line-ecosystem-equipe {
+  display: none;
+}

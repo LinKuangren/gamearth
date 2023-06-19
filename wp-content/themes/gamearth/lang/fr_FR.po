@@ -1,0 +1,204 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Gamearth\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-01-11 11:00+0000\n"
+"PO-Revision-Date: 2023-01-22 12:06+0000\n"
+"Last-Translator: admin_gamearth <mauryyohan1@gmail.com>\n"
+"Language-Team: Français\n"
+"Language: fr_FR\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/"
+
+#: templates/comments.php:19
+msgid "&larr; Older comments"
+msgstr "&larr; Commentaires plus anciens"
+
+#: lib/carbon/template-homepage.php
+msgid "Action contents"
+msgstr "Contenu de l'action"
+
+#: lib/carbon/template-homepage.php
+msgid "Banner"
+msgstr "Bannière"
+
+#: templates/entry-meta.php:2
+msgid "By"
+msgstr "Par"
+
+#: templates/comments.php:31
+msgid "Comments are closed."
+msgstr "Les commentaires sont fermés."
+
+#: templates/comments.php:9
+#, php-format
+msgctxt "comments title"
+msgid "One response to &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s responses to &ldquo;%2$s&rdquo;"
+msgstr[0] "Une réponse pour &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s réponses pour &ldquo;%2$s&rdquo;"
+
+#: lib/extras.php:31
+msgid "Continued"
+msgstr "Lire la suite"
+
+#: lib/carbon/template-homepage.php
+msgid "CTA Name"
+msgstr "Nom du CTA"
+
+#. Name of the template
+msgid "Custom Template"
+msgstr "Template personnalisé"
+
+#: lib/carbon/template-homepage.php
+msgid "Description"
+msgstr "Description"
+
+#: lib/carbon/template-homepage.php
+msgid "Ecosystem columns"
+msgstr "Colonnes de l'écosystème"
+
+#: lib/carbon/template-homepage.php
+msgid "Ecosystem contents"
+msgstr "Contenu de l'écosystème"
+
+#: lib/carbon/template-homepage.php
+msgid "Ecosystem partners"
+msgstr "Partenaires de l'écosystème"
+
+#: functions.php:23
+#, php-format
+msgid "Error locating %s for inclusion"
+msgstr "Erreur pendant la recherche de %s pour l'inclusion"
+
+#: lib/setup.php:72
+msgid "Footer"
+msgstr "Pied de page"
+
+#: lib/carbon/template-homepage.php
+msgid "Fund contents"
+msgstr "Contenu de fonds de dotation"
+
+#: lib/carbon/template-homepage.php
+msgid "Fund paragraph"
+msgstr "Paragraphe du fonds de dotation"
+
+#. Name of the theme
+#. Description of the theme
+msgid "Gamearth"
+msgstr "Gamearth"
+
+#. Author of the theme
+msgid "GPDC - Digital Campus"
+msgstr "GPDC - Digital Campus"
+
+#. URI of the theme
+msgid "http://localhost"
+msgstr "http://localhost"
+
+#: lib/carbon/template-homepage.php
+msgid "Image"
+msgstr "Image"
+
+#: lib/carbon/template-homepage.php
+msgid "Impact contents"
+msgstr "Contenu de l'impact"
+
+#: lib/titles.php:13
+msgid "Latest Posts"
+msgstr "Derniers articles"
+
+#: lib/carbon/template-homepage.php
+msgid "Logo"
+msgstr "Logo"
+
+#: templates/comments.php:22
+msgid "Newer comments &rarr;"
+msgstr "Commentaires pour récents &rarr;"
+
+#: lib/titles.php:20
+msgid "Not Found"
+msgstr "Non trouvé"
+
+#: lib/carbon/template-homepage.php
+#, fuzzy
+#| msgid "Our action"
+msgid "Our action"
+msgstr "Notre Action"
+
+#: lib/carbon/template-homepage.php
+#, fuzzy
+#| msgid "Our ecosystem"
+msgid "Our ecosystem"
+msgstr "Notre écosystème"
+
+#: lib/carbon/template-homepage.php
+#, fuzzy
+#| msgid "Our fund"
+msgid "Our fund"
+msgstr "Notre fonds"
+
+#: lib/carbon/template-homepage.php
+#, fuzzy
+#| msgid "Our impact"
+msgid "Our impact"
+msgstr "Notre impact"
+
+#: lib/carbon/template-homepage.php
+#, fuzzy
+#| msgid "Our media"
+msgid "Our media"
+msgstr "Notre média"
+
+#: templates/content-single.php:11 templates/content-page.php:2
+msgid "Pages:"
+msgstr "Pages :"
+
+#: lib/carbon/template-homepage.php
+msgid "Paragraph"
+msgstr "Paragraphe"
+
+#: lib/carbon/template-homepage.php
+msgid "Partner logo"
+msgstr "Logo d'un partenaire"
+
+#: lib/setup.php:63
+msgid "Primary"
+msgstr "Principal"
+
+#: lib/setup.php:30
+msgid "Primary Navigation"
+msgstr "Navigation Principale"
+
+#: lib/titles.php:18
+#, php-format
+msgid "Search Results for %s"
+msgstr "Résultats de recherche pour %s"
+
+#: 404.php:4
+msgid "Sorry, but the page you were trying to view does not exist."
+msgstr "Désolé, mais la page que vous essayez de voir n'existe pas"
+
+#: index.php:5 search.php:5
+msgid "Sorry, no results were found."
+msgstr "Désolé, aucun résultat trouvé"
+
+#: lib/carbon/template-homepage.php
+msgid "Subtitle"
+msgstr "Sous-titre"
+
+#: lib/carbon/template-homepage.php
+msgid "Title"
+msgstr "Titre"
+
+#: base.php:14
+msgid ""
+"You are using an <strong>outdated</strong> browser. Please <a href=\"http:"
+"//browsehappy.com/\">upgrade your browser</a> to improve your experience."
+msgstr ""
+"Vous utilisez un navigateur <strong>désuet<strong>. S'il vous plaît <a "
+"href=\"http://browsehappy.com/\">mettez à jour votre navigateur</a> pour "
+"améliorer votre expérience."

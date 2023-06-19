@@ -1,0 +1,110 @@
+ul#menu-menu-1.nav {
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+  list-style: none;
+  padding: 0;
+
+  li > a {
+    color: var(--gamearth-green);
+    display: block;
+    float: left;
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 50px; /* hauteur de l'image de fond */
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+  }
+
+  li > a:hover {
+    color: white;
+  }
+}
+
+@media only screen and (min-width : 320px) {
+  header.banner {
+    background-color: var(--gamearth-blue);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .left {
+    align-items: center;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    padding: 0 25px;
+  
+    img.header-logo {
+      margin: 20px;
+    }
+  
+    p.header-baseline {
+      color: var(--gamearth-green);
+      font-size: 20px;
+      font-weight: bold;
+      line-height: 22px;
+      max-width: 250px;
+    }
+  }
+
+  ul#menu-menu-1.nav {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .right {
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width : 768px) {
+  // On remet le menu des pages a son etat originel
+  ul#menu-menu-1.nav {
+    flex-direction: row;
+    gap: 25px;
+  }
+  
+}
+
+@media only screen and (min-width : 1100px) {
+  header.banner {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+.center {
+  align-items: center;
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  margin: auto;
+  text-align: center;
+  padding: 0 25px;
+}
+
+.right {
+  align-items: center;
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  margin: auto;
+  padding: 0 25px;
+
+  img {
+    margin-left: 25px;
+  }
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  float: left; /* pour IE */
+}

@@ -1,0 +1,11 @@
+/* stylelint-disable */
+{{#shapes}}
+{{#dimensions.extra}}
+{{#selector.dimensions}}{{expression}}{{^last}},
+{{/last}}{{/selector.dimensions}} {
+  width: {{width.outer}}px;
+  height: {{height.outer}}px;
+}{{/dimensions.extra}}
+
+{{/shapes}}
+/* stylelint-enable */

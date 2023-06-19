@@ -1,0 +1,23 @@
+{
+  "dest": ".",
+  "mode": {
+    "view": {
+      "dest": ".",
+      "bust": false,
+      "sprite": "assets/images/sprite.view.svg",
+      "render": {
+        "scss": {
+          "dest" : "assets/styles/_sprite.scss",
+          "template": "assets/tmpl/css/sprite.scsstmpl"
+        }
+      }
+    },
+    "symbol": {
+      "dest": ".",
+      "bust": false,
+      "prefix": ".icon-%s",
+      "sprite": "assets/images/sprite.symbol.svg",
+      "layout": "horizontal"
+    }
+  }
+}
